@@ -1,12 +1,13 @@
 #include <stdio.h>
 
-int main (){
+int main() {
     printf("=================================\n");
-    printf("Pemograman bahasa C booelan\n");
+    printf("Pemrograman bahasa C boolean\n");
     printf("=================================\n");
 
+    int lulus = 1;
+    
+    printf("Lulus: %s\n", (lulus ? "Iya" : "Tidak"));
 
-    _Bool lulus = 1;
-    printf("Lulus: %d\n",lulus);
-
+    return 0;
 }

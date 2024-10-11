@@ -7,6 +7,6 @@ int main(){
     cout << "================================="<< endl;
 
     bool lulus = true;
-    cout << "Lulus: " << lulus << endl;
+    cout << "Lulus: " << (lulus ? "Iya": "Tidak" ) << endl;
 
 }
