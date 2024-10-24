@@ -10,6 +10,6 @@ int main (){
     int a = 25;
     int b = 2;
     int hasil = a / b;
-    cout << "Hasil" << hasil << endl;
+    cout << "Hasil :" << hasil << endl;
 
 }
