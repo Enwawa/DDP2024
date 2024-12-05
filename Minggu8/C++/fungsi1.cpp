@@ -7,6 +7,7 @@ void cetakPesan (){
 
 int main () {
     cetakPesan();
+    
     system("pause");
     return 0;
 }
