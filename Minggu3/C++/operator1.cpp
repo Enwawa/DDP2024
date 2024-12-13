@@ -11,6 +11,7 @@ int main (){
     
     int hasil = a + b;
     cout << "Hasil : " << hasil << endl;
-    
+    cin.get();
+    return 0;
 
 }
