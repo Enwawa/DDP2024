@@ -8,9 +8,9 @@ struct Person {
 
 int main() {
     struct Person p;
-    strcpy(p.nama, "Enwa");  // Menggunakan strcpy untuk mengisi string
+    strcpy(p.nama, "Enwa");
     p.umur = 18;
 
-    printf("Nama: %s, Age: %d\n", p.nama, p.umur);
+    printf("Nama: %s, Umur: %d\n", p.nama, p.umur);
     return 0;
 }

@@ -8,12 +8,10 @@ struct Person {
 
 int main() {
     struct Person p;
-    
-    // Inisialisasi data Person
+
     strcpy(p.nama, "Enwa");
     p.umur = 20;
 
-    // Menampilkan data Person
     printf("Nama: %s, Umur: %d\n", p.nama, p.umur);
     
     return 0;

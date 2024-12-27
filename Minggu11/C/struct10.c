@@ -51,9 +51,9 @@ int main() {
         printf("ID: ");
         scanf("%d", &id);
         printf("Nama: ");
-        getchar(); // Membersihkan newline dari buffer
+        getchar(); 
         fgets(nama, sizeof(nama), stdin);
-        nama[strcspn(nama, "\n")] = '\0'; // Menghapus newline dari input
+        nama[strcspn(nama, "\n")] = '\0'; 
         printf("Harga: ");
         scanf("%f", &harga);
         printf("Jumlah: ");

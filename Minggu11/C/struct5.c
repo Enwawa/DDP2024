@@ -8,18 +8,18 @@ struct Identitas {
 };
 
 int main() {
-    struct Identitas* p = (struct Identitas*)malloc(sizeof(struct Identitas)); // Alokasi memori dinamis
+    struct Identitas* p = (struct Identitas*)malloc(sizeof(struct Identitas));
 
     if (p == NULL) {
         printf("Gagal mengalokasikan memori.\n");
-        return 1; // Keluar jika gagal mengalokasikan memori
+        return 1;
     }
 
-    strcpy(p->nama, "Stefenny"); // Mengisi string menggunakan strcpy
+    strcpy(p->nama, "Stefenny");
     p->umur = 19;
 
     printf("Nama: %s, Umur: %d\n", p->nama, p->umur);
 
-    free(p); // Membebaskan memori
+    free(p); 
     return 0;
 }

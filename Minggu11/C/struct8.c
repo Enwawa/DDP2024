@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-struct Buah {
+struct buah {
     char warna[20];
     float berat;
     int harga;
@@ -9,29 +9,30 @@ struct Buah {
 };
 
 int main() {
-    struct Buah apel;
-    struct Buah jeruk;
+    struct buah apel;
+    struct buah jeruk;
 
-    // Inisialisasi data apel
     strcpy(apel.warna, "merah");
     apel.berat = 250.50f;
     apel.harga = 50000;
     strcpy(apel.rasa, "manis kesat");
 
-    // Inisialisasi data jeruk
     strcpy(jeruk.warna, "orange");
     jeruk.berat = 250.50f;
-    jeruk.harga = 20000; // Perbaikan: ini adalah harga
+    jeruk.harga = 20000;
     strcpy(jeruk.rasa, "asam");
 
-    // Output data apel
+    printf("Apel\n");
     printf("- %s\n", apel.warna);
     printf("- %.2f\n", apel.berat);
+    printf("- %d\n", apel.harga);
     printf("- %s\n", apel.rasa);
+    printf("==================\n");
 
-    // Output data jeruk
+    printf("Jeruk\n");
     printf("- %s\n", jeruk.warna);
     printf("- %.2f\n", jeruk.berat);
+    printf("- %d\n", jeruk.harga);
     printf("- %s\n", jeruk.rasa);
 
     return 0;
