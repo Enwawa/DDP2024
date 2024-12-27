@@ -7,11 +7,20 @@ int main() {
         cout << "Masukkan angka ke-" << i + 1 << ": ";
         cin >> angka[i];
     }
-
-    cout << "Isi array: ";
+    int cari;
+    cout << "Masukkan angka yang ingin dicari: ";
+    cin >> cari;
+    int indeks = -1;
     for (int i = 0; i < 5; i++) {
-        cout << angka[i] << " ";
+        if (angka[i] == cari) {
+            indeks = i;
+            break;
+        }
     }
-    cout << endl;
+    if (indeks != -1) {
+        cout << "Angka " << cari << " ditemukan pada indeks " << indeks << endl;
+    } else {
+        cout << "Angka " << cari << " tidak ditemukan dalam array" << endl;
+    }
     return 0;
 }
