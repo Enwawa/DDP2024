@@ -12,10 +12,12 @@ int main() {
         {"Fatih", 19},
         {"Afiq", 20}
     };
-
-    for (int i = 0; i < 3; i++) {
+	
+	int i;
+    for (i = 0; i < 3; i++) {
         printf("Nama: %s, Umur: %d\n", orang[i].nama, orang[i].umur);
     }
 
     return 0;
 }
+

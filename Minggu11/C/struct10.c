@@ -25,7 +25,8 @@ void tampilkanData(const struct Barang* b) {
 
 float hitungTotalHarga(const struct Barang* b, int jumlah) {
     float total = 0;
-    for (int i = 0; i < jumlah; i++) {
+    int i;
+    for ( i = 0; i < jumlah; i++) {
         total += b[i].harga * b[i].jumlah;
     }
     return total;
@@ -41,8 +42,8 @@ int main() {
         printf("Gagal mengalokasikan memori.\n");
         return 1;
     }
-
-    for (int i = 0; i < jumlahBarang; i++) {
+	int i;
+    for (i = 0; i < jumlahBarang; i++) {
         int id, jumlah;
         char nama[50];
         float harga;
@@ -64,7 +65,7 @@ int main() {
     }
 
     printf("\n\tData Barang\n");
-    for (int i = 0; i < jumlahBarang; i++) {
+    for (i = 0; i < jumlahBarang; i++) {
         tampilkanData(&daftarBarang[i]);
         printf("================================================\n");
     }
