@@ -1,10 +1,10 @@
 #include <iostream>
-#include <iomanip> // untuk manipulasi output (misal: setw, setprecision)
-#include <fstream> // untuk operasi file
+#include <iomanip>
+#include <fstream>
 
 using namespace std;
 
-const int MAKS_BARANG = 100; // Batas maksimum barang dalam keranjang
+const int MAKS_BARANG = 100;
 
 struct Barang {
     string nama;
