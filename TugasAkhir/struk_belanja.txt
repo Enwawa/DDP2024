@@ -1,10 +1,9 @@
 ========== STRUK BELANJA ==========
 Nama Barang        Jumlah    Harga     Total
 ---------------------------------------------
-teh pucuk      2         6000      12000
-indomie        2         6000      12000
+kowdko         2         2000      4000
 ---------------------------------------------
-Total Harga: Rp 24000
-Uang Dibayar: Rp 25000
+Total Harga : Rp 4000
+Uang Dibayar: Rp 5000
 Kembalian   : Rp 1000
 =============================================
